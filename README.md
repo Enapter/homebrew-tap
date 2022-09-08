@@ -1,4 +1,4 @@
-# Enapter Tap Repository
+# Enapter Homebrew Tap Repository
 
 ## List of formulaes
 
