@@ -1,4 +1,8 @@
-# Enapter Tap
+# Enapter Tap Repository
+
+## List of formulaes
+
+- `enapter` - Cross-platform device management command-line tool for Enapter Energy Management System Toolkit
 
 ## How do I install these formulae?
 
