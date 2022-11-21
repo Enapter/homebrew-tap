@@ -1,6 +1,6 @@
 cask "flasher" do
-  version "1.0.0-rc.1"
-  sha256 "640591f31c16e3c46a0e3a753ba172822950e23ab6861a748ee7bf01ce218111"
+  version "1.0.0-rc.2"
+  sha256 "5d900654f6f4cf7e5e30600c381922066bd8f9364b7a559ea0d1e9023c2c5501"
 
   url "https://downloads.enapter.com/enapter-flasher/#{version}/Enapter%20UCM%20Kit%20Flasher-#{version}-universal.dmg"
   name "Enapter UCM Kit Flasher"
