@@ -2,7 +2,7 @@
 
 ## List of formulaes
 
-- `enapter` - Cross-platform device management command-line tool for Enapter Energy Management System Toolkit
+- `enapter` - Cross-platform device management [command-line tool](https://github.com/Enapter/enapter-cli) for Enapter Energy Management System Toolkit
 - `flasher` - Application for uploading latest Enapter firmwares for Espressif ESP32 chip for wide range Enapter UCM Kits.
 
 ## How do I install these formulae?
