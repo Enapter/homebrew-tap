@@ -2,8 +2,8 @@ class Enapter < Formula
   desc "Device management command-line tool for Enapter Energy Management System Toolkit"
   homepage "https://github.com/Enapter/enapter-cli"
   url "https://github.com/Enapter/enapter-cli.git",
-    tag:      "v0.1.1",
-    revision: "7fd8de5335c50aae2a08413731a347a554a31bfe"
+    tag:      "v0.1.3",
+    revision: "be0c5c8958d60bd56f379099b94bdf021668fcea"
   license "Apache-2.0"
   head "https://github.com/Enapter/enapter-cli.git", branch: "master"
 
