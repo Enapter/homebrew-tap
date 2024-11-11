@@ -5,23 +5,23 @@
 class EnapterAT3 < Formula
   desc "Command-line tool for Enapter Energy Management System Toolkit"
   homepage "https://github.com/Enapter/enapter-cli"
-  version "3.0.0-alpha.2"
+  version "3.0.0-alpha.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.2/enapter-cli-3.0.0-alpha.2-darwin-amd64.tar.gz"
-      sha256 "27691eec1611348e5f0592361b9ea09dcf3e2a8e691487b7f038ee4e5579c6b0"
+      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.3/enapter-cli-3.0.0-alpha.3-darwin-amd64.tar.gz"
+      sha256 "2dba19fe01892d55fdd451210f384477b5a72f5439b23802d3f696e19a0e3851"
 
       def install
-        bin.install "enapter"
+        bin.install "enapter3"
       end
     end
     on_arm do
-      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.2/enapter-cli-3.0.0-alpha.2-darwin-arm64.tar.gz"
-      sha256 "508219969fdb2cb3a552cd467dfd5b7719e95a0402b537074c781cdc74dfe9a0"
+      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.3/enapter-cli-3.0.0-alpha.3-darwin-arm64.tar.gz"
+      sha256 "6fb9ecfc4d6c8e9d99859f18c4cc7537c3a57c8bf9949f5d5f320111cea55300"
 
       def install
-        bin.install "enapter"
+        bin.install "enapter3"
       end
     end
   end
@@ -29,17 +29,17 @@ class EnapterAT3 < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.2/enapter-cli-3.0.0-alpha.2-linux-amd64.tar.gz"
-        sha256 "32e78109de223321b445973fa98f45cc190113afd3ca9831f9d9ee786ebfa0e9"
+        url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-alpha.3/enapter-cli-3.0.0-alpha.3-linux-amd64.tar.gz"
+        sha256 "7ca477b4c2419937026858a5857dd01e92e0e1a1e869af5ff66b191092b64c22"
 
         def install
-          bin.install "enapter"
+          bin.install "enapter3"
         end
       end
     end
   end
 
   test do
-    assert_match "Enapter CLI #{version}", shell_output("#{bin}/enapter --version")
+    assert_match "Enapter CLI #{version}", shell_output("#{bin}/enapter3 --version")
   end
 end
