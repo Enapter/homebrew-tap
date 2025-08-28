@@ -10,7 +10,7 @@ class EnapterAT3 < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.1/enapter-cli-3.0.0-beta.1-darwin-amd64.tar.gz"
-      sha256 "c073f7d4b3a8b78461dca11486c599623f9374f15bfd1ae6e016f9514d57e892"
+      sha256 "c2c4a786d112bcb70011256f72e2aedb0c389a4a4a774bf505455335e185292f"
 
       def install
         bin.install "enapter3"
@@ -18,7 +18,7 @@ class EnapterAT3 < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.1/enapter-cli-3.0.0-beta.1-darwin-arm64.tar.gz"
-      sha256 "c4871c8b064abc0b0d45b90082bf9a52be1dc338677bf89524a8c4ce2126555a"
+      sha256 "dc75a1506abe5b3b4b1f0ced7819e8f8e8f3281650c9b51a3666678dbe280eb7"
 
       def install
         bin.install "enapter3"
@@ -29,7 +29,7 @@ class EnapterAT3 < Formula
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
       url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.1/enapter-cli-3.0.0-beta.1-linux-amd64.tar.gz"
-      sha256 "8e0e500626f44cf5d9ed9a99d67aa9ea656f837245d3a2246653347932df84da"
+      sha256 "12dbb66455540a8ceb03df5634bc0333c8a3de924abe9a3244a0cc36a29fe76f"
       def install
         bin.install "enapter3"
       end
