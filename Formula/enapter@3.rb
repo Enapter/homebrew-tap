@@ -5,20 +5,20 @@
 class EnapterAT3 < Formula
   desc "Command-line tool for Enapter Energy Management System Toolkit"
   homepage "https://github.com/Enapter/enapter-cli"
-  version "3.0.0-beta.5"
+  version "3.0.0-beta.6"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.5/enapter-cli-3.0.0-beta.5-darwin-amd64.tar.gz"
-      sha256 "69899cae145faadddb0798dacc59e012b69feac885f4011ed04b06793bdd3957"
+      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.6/enapter-cli-3.0.0-beta.6-darwin-amd64.tar.gz"
+      sha256 "5fb08deebf58d538a2da2a61ead202960e3aae168c0febcf0fcd2587e8a2fb52"
 
       def install
         bin.install "enapter3"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.5/enapter-cli-3.0.0-beta.5-darwin-arm64.tar.gz"
-      sha256 "3c31eba0d59043626d6e9ed436524d08a763704776a27934bf1adf2804daf316"
+      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.6/enapter-cli-3.0.0-beta.6-darwin-arm64.tar.gz"
+      sha256 "fb8e09f701edb60a1eedcb79fb78b95eac9c5df7baae4f06cefcf8672a777c0f"
 
       def install
         bin.install "enapter3"
@@ -28,8 +28,8 @@ class EnapterAT3 < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.5/enapter-cli-3.0.0-beta.5-linux-amd64.tar.gz"
-      sha256 "8289b3c3bca4777ca27503aa133b496bccbdcc8ddbe61150ebc2b0526521aaf7"
+      url "https://github.com/enapter/enapter-cli/releases/download/v3.0.0-beta.6/enapter-cli-3.0.0-beta.6-linux-amd64.tar.gz"
+      sha256 "74ecd6807716171e9ae7c03eab7173e8f805f4fa7836c17800a87c1f90091248"
       def install
         bin.install "enapter3"
       end
